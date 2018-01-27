@@ -76,7 +76,7 @@ class ButtonNumber extends Component{
         return(
             <TouchableOpacity
                 style = {styles.button}
-                onPress={this.onClickNumber({number})}>
+                onPress={this.onClickNumber}>
                 <Text style={styles.text}>{this.props.text}</Text>
             </TouchableOpacity>
         )
